@@ -1,5 +1,13 @@
 package com.practice.designpatterns.java;
 
+/**
+ * 
+ * @author mallesh
+ * @since 02/18/2017
+ * 
+ *  This is an abstract class which hides behavior of Duck in a separate interfaces and implementation classes
+ *  This is for demonstrating Strategy Pattern
+ */
 public abstract class Duck {
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;
